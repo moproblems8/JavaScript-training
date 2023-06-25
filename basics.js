@@ -32,3 +32,27 @@ myVar++;
 myVar++;
 myVar--;
 console.log(myVar);
+
+// augmented math operations
+var a = 3;
+var b = 17;
+var c = 12;
+a = a + 12;
+a += 12;
+
+// string length
+var firstNameLength = 0;
+var firstName = 'Ada';
+firstNameLength = firstName.length;
+console.log(firstNameLength);
+
+// bracket notation to find first character in string
+var firstLetterOfFirstName = '';
+var firstName = 'Ada';
+firstLetterOfFirstName = firstName[0];
+console.log(firstLetterOfFirstName);
+
+// string immutability
+var myStr = 'Jello World';
+myStr[0] = 'H';
+console.log(myStr); // this will still print 'Jello World'
